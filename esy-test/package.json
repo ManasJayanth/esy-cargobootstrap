@@ -1,0 +1,12 @@
+{
+  "esy": {
+    "build": "cargo --help"
+  },
+  "dependencies": {
+    "esy-cargobootstrap": "*"
+  },
+  "resolutions": {
+    "esy-rustc": "ManasJayanth/esy-rustc:esy.json#b45e6794775946b8b0d21039a9d61faaf5790147",
+    "esy-python": "ManasJayanth/esy-python:esy.json#a0fcd91a0cdecd0a732ea13bbcb427f19e3133fe"
+  }
+}

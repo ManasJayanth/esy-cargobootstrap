@@ -1,0 +1,15 @@
+{
+  "name": "esy-cargobootstrap",
+  "version": "1.49.0",
+  "description": "cargobootstrap packaged for esy",
+  "source": "https://static.rust-lang.org/dist/2020-12-31/cargo-1.49.0-x86_64-unknown-linux-gnu.tar.gz#sha256:900597323df24703a38f58e40ede5c3f70e105ddc296e2b90efe6fe2895278fe",
+  "override": {
+    "buildEnv": {},
+    "build": ["sh ./install.sh --prefix=#{self.install}"],
+    "install": "make install",
+    "buildsInSource": true,
+    "dependencies": {
+      "esy-rustc": "<= 1.49.0"
+    }
+  }
+}
